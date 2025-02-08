@@ -1,6 +1,10 @@
 # BOMFix - Local HTTPS Proxy with Nginx on macOS
 
-This guide explains how to set up a local HTTPS proxy using Nginx on macOS to securely access HTTP websites. The proxy will be added to a device, not a network.  
+This guide explains how to set up a local HTTPS proxy using Nginx on macOS to directly access content on the BOM website, allowing users to bypass the following message:
+
+![BomRedirect](https://github.com/user-attachments/assets/5c3fe83c-9d46-4b70-9820-93eeb37f3763)
+
+The proxy will be added to a device, not a network.  
 
 **Note** This is a basic workaround intended for use when seeking to access BOM content. Other website will not work while the solution is active. To resume normal browsing, use the command  ```brew services stop nginx ``` and use ```brew services restart nginx``` to reactivate the workaround.
 
