@@ -1,6 +1,6 @@
 # BOMFix - Local HTTPS Proxy with Nginx on macOS
 
-This guide explains how to set up a local HTTPS proxy using Nginx on macOS to directly access content on the BOM website, allowing users to bypass the following message:
+This guide explains how to set up a local HTTPS proxy using Nginx on macOS to directly access content hosted on [http://www.bom.gov.au/](http://www.bom.gov.au/), allowing users to directly access BOM content without the following message:
 
 ![BomRedirect](https://github.com/user-attachments/assets/5c3fe83c-9d46-4b70-9820-93eeb37f3763)
 
