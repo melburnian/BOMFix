@@ -78,7 +78,6 @@ http {
             proxy_pass http://www.bom.gov.au/; # Replace with your target HTTP website
             proxy_set_header Host $host;
             proxy_set_header X-Real-IP $remote_addr;
-h
         }
     }
 }
